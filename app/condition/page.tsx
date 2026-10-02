@@ -2,6 +2,13 @@ import Link from "next/link";
 import conditions from "../../data/conditions.json";
 import archive from "../../data/public-archive.json";
 import {Shell} from "../components";
+import {pageMetadata} from "../site-metadata";
+
+export const metadata=pageMetadata({
+  title:"The Six Conditions",
+  description:"Six curated photographic Conditions describing relationships between presence and the photograph.",
+  path:"/condition",
+});
 
 export default function Conditions(){
   const base=process.env.NEXT_PUBLIC_BASE_PATH??"";

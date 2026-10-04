@@ -1,6 +1,6 @@
 import type {Metadata} from "next";
 
-export const SITE_URL="https://ddaiana.github.io/the-presence-condition";
+export const SITE_URL="https://dmelania.github.io/the-presence-condition";
 export const SITE_NAME="The Presence Condition";
 export const SITE_DESCRIPTION="An ongoing photography project by D. Melania, recording photographs as evidence that a person was present.";
 
